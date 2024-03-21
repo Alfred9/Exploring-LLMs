@@ -1,7 +1,7 @@
-## RAG Generator 
+## RAG Generator
+## Introduction
 RAGenerator combines the strengths of retrieval-based methods (efficiently retrieving relevant information) with generative methods (flexibility in generating answers) to provide more accurate and informative responses to questions. It's particularly useful in scenarios where the information required to answer questions is spread across a large corpus, such as open-domain question answering or complex information retrieval tasks.
 
-## Introduction
 Generative Question Answering (QA) involves creating novel text answers rather than just extracting them from a given context. This project utilizes the RAGenerator model to set up a generative QA system that conditions the answer generator on a set of retrieved documents.
 
 ## Tools Used
