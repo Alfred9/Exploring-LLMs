@@ -1,1 +1,2 @@
-
+## RAG Generator 
+RAGenerator combines the strengths of retrieval-based methods (efficiently retrieving relevant information) with generative methods (flexibility in generating answers) to provide more accurate and informative responses to questions. It's particularly useful in scenarios where the information required to answer questions is spread across a large corpus, such as open-domain question answering or complex information retrieval tasks.
