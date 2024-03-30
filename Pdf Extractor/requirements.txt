@@ -1,5 +1,6 @@
-streamlit==0.86.0
-PyPDF2==1.26.0
-spacy==3.0.6
-transformers==4.11.3
+ctransformers
+streamlit
+PyPDF2
+accelerate
+python-docx
 
