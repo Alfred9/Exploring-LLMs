@@ -23,8 +23,6 @@ def preprocess_text(text):
     entities = [(ent.text, ent.label_) for ent in doc.ents]
     return tokens, entities
 
-from transformers import pipeline
-
 def extract_information(text):
     model = pipeline("text-generation", model="mistralai/Mistral-7B-Instruct-v0.2")
     prompt = f"Extract the invoice number, company name and address, seller/dispatcher details, delivery address, and dates (invoice date, delivery date) from the following text: {text}"
