@@ -1,4 +1,4 @@
-import PyPDF2
+import PyPDF2.PdfReader
 import re
 import docx
 import email
@@ -6,7 +6,7 @@ import streamlit as st
 
 def extract_text_from_pdf(file):
     pdf_file = open(file, 'rb')
-    pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+    pdf_reader = PyPDF2.PdfReader(pdf_file)
     text = ""
     for page_num in range(pdf_reader.numPages):
         page = pdf_reader.getPage(page_num)
