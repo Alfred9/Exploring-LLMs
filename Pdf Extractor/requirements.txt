@@ -1,6 +1,0 @@
-ctransformers
-streamlit
-PyPDF2
-accelerate
-python-docx
-
