@@ -9,10 +9,10 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 
 # Replace this with your own Hugging Face API token
-huggingfacehub_api_token = st.secrets["huggingfacehub_api_token"]
+huggingfacehub_api_token = st.secrets["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"]
 
 # Customize the layout
-st.set_page_config(page_title="Document Knowledge Retrieval", page_icon=":book:", layout="wide", )     
+st.set_page_config(page_title="Document Query", page_icon=":book:", layout="wide", )     
 
 def write_text_file(content, file_path):
     """
@@ -50,7 +50,7 @@ def is_docx_file(file):
 
 #  Set prompt template for language model queries
 prompt_template = """
-You are an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. Below is some information. 
+You are an artificial intelligence assistant giving helpful, detailed, and polite answers to the user's questions. Below is some information. 
 {context}
 
 Based on the above information only, answer the below question. 
