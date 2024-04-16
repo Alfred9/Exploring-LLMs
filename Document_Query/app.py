@@ -9,7 +9,7 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import HuggingFaceEmbeddings
 
 # Replace this with your own Hugging Face API token
-huggingfacehub_api_token = st.secrets["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"]
+huggingfacehub_api_token = st.secrets["key"]
 
 # Customize the layout
 st.set_page_config(page_title="Document Query", page_icon=":book:", layout="wide", )     
