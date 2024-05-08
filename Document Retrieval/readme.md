@@ -12,7 +12,7 @@ This notebbok utilizes the following components:
 4. **InMemoryDocumentStore**: Stores documents and their embeddings in memory for fast retrieval.
 5. **InMemoryBM25Retriever**: Performs keyword-based retrieval using the BM25 algorithm, which is effective for matching keywords.
 6. **InMemoryEmbeddingRetriever**: Conducts embedding-based retrieval using dense embeddings, which excel in understanding contextual nuances.
-7. **TransformersSimilarityRanker**: Ranks retrieved documents based on similarity scores computed using transformer-based models.
+7. **TransformersSimilarityRanker**: Ranks retrieved documents based on similarity scores computed using transformer-based models..
 
 ## Notebook Overview
 Thesystem implementation is structured within a notebook, with the following sections:
