@@ -1,2 +1,2 @@
-vISUAL LANG Models
+VLMs also know as Visual Language models.
 
