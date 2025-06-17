@@ -1,4 +1,4 @@
-# Synthetic Data Generation with Large Language Models (Google Colab)
+## Synthetic Data Generation with Large Language Models (Google Colab)
 
 Generate high‑quality synthetic **financial sentiment data** using the Mixtral‑8x7B‑Instruct model served via the Hugging Face Inference API. The workflow downloads the **Financial PhraseBank** corpus, auto‑labels each sentence, and writes a ready‑to‑train CSV.
 
@@ -20,13 +20,12 @@ Generate high‑quality synthetic **financial sentiment data** using the Mixtral
 ```
 ├── synthetic_data_generation_colab.ipynb  # Main Colab notebook
 ├── df_train.csv                           # Resulting synthetic dataset (created after running)
-├── .env.example                           # Template for environment variables
 └── README.md                              # You are here
 ```
 
 ---
 
-## 🚀 Quick Start in Google Colab
+##  Quick Start in Google Colab
 
 ### 1. Open in Google Colab
 
@@ -69,7 +68,7 @@ Adjust these globals at the top of the notebook:
 
 ---
 
-## 📊 Output
+##  Output
 
 `df_train.csv` columns:
 
@@ -87,14 +86,12 @@ Adjust these globals at the top of the notebook:
 
 ---
 
-## 🛡️ License
+## 🛡 License
 
 This repository is licensed under the **Apache 2.0** License. The Financial PhraseBank dataset is distributed under its own research license—see the dataset card for details.
 
----
 
-## 🙋‍♂️ Questions / Help
 
-Open an issue or start a discussion on the repo if you get stuck. PRs welcome!
+
 
 
