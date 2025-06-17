@@ -35,7 +35,7 @@ A single agent makes decisions about retrieval:
 • Analyzes the query to determine the best knowledge sources
 • Makes strategic decisions about how to retrieve information
 • Coordinates the retrieval process based on query understanding
-𝘊𝘩𝘦𝘤𝘬 𝘰𝘶𝘵 𝘵𝘩𝘦 𝘘𝘶𝘦𝘳𝘺 𝘈𝘨𝘦𝘯𝘵 𝘪𝘯 𝘞𝘦𝘢𝘷𝘪𝘢𝘵𝘦: https://lnkd.in/eEeAbMd8
+
 
 ### 𝗠𝘂𝗹𝘁𝗶-𝗔𝗴𝗲𝗻𝘁 𝗥𝗔𝗚
 This one employs multiple specialized agents:
