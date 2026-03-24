@@ -1,5 +1,3 @@
-RAG Architectures you should know
-
 ### 𝗡𝗮𝗶𝘃𝗲 𝗥𝗔𝗚: 𝗧𝗵𝗲 𝗖𝗹𝗮𝘀𝘀𝗶𝗰 𝗔𝗽𝗽𝗿𝗼𝗮𝗰𝗵
 Naive RAG is the standard implementation with a relatively straightforward process:
 • Query comes in from the user
