@@ -15,7 +15,7 @@ This one adds a reranking step after the retrieval to improve response quality:
 ### 𝗠𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹 𝗥𝗔𝗚
 The architecture leverages models that can process and retrieve from text, images, audio, video, and other data types. 
 
-### 𝗚𝗿𝗮𝗽𝗵 𝗥𝗔𝗚
+### 𝗥𝗔𝗚 𝗚𝗿𝗮𝗽𝗵 
 Graph RAG uses a graph database to incorporate relationship information between documents:
 • Documents/chunks are nodes in a graph
 • Relationships between documents are edges
@@ -41,3 +41,7 @@ This one employs multiple specialized agents:
 • Specialized retrieval agents focus on different tasks
 • Agents can communicate and collaborate to solve complex problems
 For example, one agent might retrieve from various sources, another might do data transformation, and a third personalizing the results from the user—all coordinated by a master agent that assembles the final response.
+
+
+### Adaptive Retrieval-Augmented Generation (RAG) System
+ implements an advanced Retrieval-Augmented Generation (RAG) approach that adapts its retrieval strategy based on the type of query.
